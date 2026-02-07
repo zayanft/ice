@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #00C2E8;
+	background-color: #a4c639;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -66,7 +66,23 @@ a.border-button:hover {
 	background-color: #fff;
 	color: #a4c639;
 }
+/* other button */
+a.filled-buttons {
+	background-color: #00C2E8;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px 30px;
+	border-radius: 30px;
+	display: inline-block;
+	transition: all 0.3s;
+}
 
+a.filled-buttons:hover {
+	background-color: #fff;
+	color: #00C2E8;
+}
 .section-heading {
 	text-align: center;
 	margin-bottom: 80px;
@@ -80,7 +96,7 @@ a.border-button:hover {
 
 .section-heading em {
 	font-style: normal;
-	color: #00C2E8;
+	color: #a4c639;
 }
 
 .section-heading span {
@@ -255,7 +271,7 @@ header .navbar {
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
-	color: #00C2E8!important;
+	color: #a4c639!important;
 }
 .background-header .navbar-nav a.nav-link {
 	color: #1e1e1e!important;
@@ -265,7 +281,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #00C2E8!important;
+	color: #a4c639!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -309,8 +325,8 @@ header .navbar {
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #00C2E8;
-	border-bottom: 3px solid #00C2E8;
+	color: #a4c639;
+	border-bottom: 3px solid #a4c639;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -460,7 +476,7 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color:#00C2E8;
+  color:#a4c639;
   animation:fadeOutRight 1s both;
 }
 
@@ -585,7 +601,7 @@ ul.slick-dots {
 
 .fun-facts {
 	margin-top: 140px;
-	background-image: url(../images/fun-facts-bg.jpg);
+	background-image: url(../images/IMG121.1.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -611,7 +627,7 @@ ul.slick-dots {
 
 .fun-facts em {
 	font-style: normal;
-	color: #00C2E8;
+	color: #a4c639;
 }
 
 .fun-facts p {
@@ -632,7 +648,7 @@ ul.slick-dots {
 
 .count-digit {
     margin: 5px 0px;
-    color: #00C2E8;
+    color: #a4c639;
     font-weight: 700;
     font-size: 30px;
 }
@@ -676,7 +692,7 @@ ul.slick-dots {
 .more-info .right-content span {
 	text-transform: uppercase;
 	font-size: 15px;
-	color: #666;
+	color: #00C2E8;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
 	display: block;
@@ -690,7 +706,7 @@ ul.slick-dots {
 
 .more-info .right-content em {
 	font-style: normal;
-	color: #00C2E8;
+	color: #a4c639;
 }
 
 .more-info .right-content p {
@@ -741,21 +757,25 @@ ul.slick-dots {
 }
 
 
-.testimonial-item .inner-content:nth-child(1) {
+.testimonial-item .inner-content {
   background-image: url("../images/IMG121.jpeg");
-  filter: brightness(80%);
+
+  
+}
+.testimonial-item .inner-content1 {
+  background-image: url("../images/IMG10.png");
+    background-size: cover;
+
  
 }
-.testimonial-item .inner-content:nth-child(2) {
-  background-image: url("../images/IMG10.png");
-  background-size: cover;
-  background-position: center center;
+.testimonial-item .inner-content2 {
+  background-image: url("../images/IMG9.png");
+
+ 
 }
-.testimonial-item .inner-content:nth-child(3) {
-  background-image: url("../images/IMG1.png") !important;
-  background-size: cover;
-  background-position: center center;
-}
+
+
+
 
 /* Call Back Style */
 
@@ -791,7 +811,7 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form {
-	background-color: #00C2E8;
+	background-color: #a4c639;
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
@@ -871,7 +891,7 @@ ul.slick-dots {
 }
 
 .contact-us .contact-form button.filled-button {
-	background-color: #00C2E8;
+	background-color: #a4c639;
 	color: #fff;
 	border: none;
 	font-size: 13px;
@@ -1042,7 +1062,7 @@ footer .contact-form ::placeholder {
 footer .contact-form button.filled-button {
 	background-color: transparent;
 	color: #fff;
-	background-color: #00C2E8;
+	background-color: #a4c639;
 	border: none;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -1085,7 +1105,7 @@ footer .contact-form button.filled-button:hover {
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
+	background-image: url(../images/img-serv.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1102,6 +1122,33 @@ footer .contact-form button.filled-button:hover {
 }
 
 .page-heading span {
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	display: block;
+}
+
+/* Contact */
+.page-heading-con {
+	text-align: center;
+	background-image: url(../images/IMG-CONTACT.png);
+	background-position: top ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0px 150px 0px;
+	color: #fff;
+}
+
+.page-heading-con h1 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+
+.page-heading-con span {
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -1173,7 +1220,7 @@ footer .contact-form button.filled-button:hover {
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
-	background-color: #00C2E8;
+	background-color: #a4c639;
   	font-size: 20px;
   	color: #121212;
   	letter-spacing: 0.5px;
@@ -1234,7 +1281,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .contact-information .contact-item i {
-	color: #00C2E8;
+	color: #a4c639;
 	font-size: 48px;
 	margin-bottom: 40px;
 }
@@ -1252,7 +1299,7 @@ footer .contact-form button.filled-button:hover {
 
 .contact-information .contact-item a {
 	font-weight: 600;
-	color: #00C2E8;
+	color: #a4c639;
 	font-size: 15px;
 }
 
@@ -1392,7 +1439,7 @@ footer .contact-form button.filled-button:hover {
 
 .left-content p em{
 	font-style: normal;
-	color: #a4c639;
+	color: #00C2E8;
 }
 
 .right-content p em{
