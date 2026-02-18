@@ -34,7 +34,7 @@ jQuery( document ).ready(function( $ ) {
 		if ($('.owl-testimonials').length) {
             $('.owl-testimonials').owlCarousel({
                 loop: true,
-                nav: false,
+                nav: true,
                 dots: true,
                 items: 1,
                 margin: 30,

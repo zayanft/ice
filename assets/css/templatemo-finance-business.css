@@ -674,10 +674,12 @@ ul.slick-dots {
 
 .more-info .more-info-content {
 	background-color: #F2F6F9;
+	
 }
 
 .about-info .more-info-content {
 	background-color: transparent;
+	
 }
 
 .about-info .right-content {
@@ -1445,4 +1447,127 @@ footer .contact-form button.filled-button:hover {
 .right-content p em{
 	font-style: normal;
 	color: #a4c639 !important;
+}
+
+
+
+.ice-card {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  /* background-image: url("../images/IMG121.jpeg"); */
+  background-size: cover;
+  background-position: center;
+}
+
+/* bottom gradient overlay */
+.ice-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.75) 0%,
+    rgba(0,0,0,0.45) 40%,
+    rgba(0,0,0,0.1) 70%,
+    rgba(0,0,0,0) 100%
+  );
+}
+
+/* text container */
+.card-content {
+  position: absolute;
+  bottom: 0;
+  padding: 28px;
+  color: white;
+  z-index: 2;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.card-content h4 {
+  margin: 6px 0 10px;
+  font-size: 16px;
+  color: #a4c639;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+.ice-card1 {
+  background-image: url("../images/construction.png");
+}
+.ice-card2 {
+  background-image: url("../images/resto.png");
+}
+.ice-card3 {
+  background-image: url("../images/swiming.png");
+}
+.ice-card4 {
+  background-image: url("../images/crushed-ice-1.png");
+}
+.ice-card5 {
+  background-image: url("../images/Agro.png");
+}
+.ice-card6 {
+  background-image: url("../images/emergency.png");
+}
+.ice-card7 {
+  background-image: url("../images/Industrial-Temperature.png");
+}
+.ice-card8 {
+  background-image: url("../images/Event-Catering.png");
+}
+
+/* OWL CSS */
+.owl-testimonials {
+    position: relative;
+}
+
+/* navigation buttons */
+.owl-testimonials .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.owl-testimonials .owl-nav button {
+    pointer-events: all;
+    border: none !important;
+    background: rgba(0,0,0,0.55) !important;
+    color: #fff !important;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+/* hover effect */
+.owl-testimonials .owl-nav button:hover {
+    background: #7ac943 !important; /* green accent */
+}
+
+/* spacing from card edge */
+.owl-testimonials .owl-prev {
+    margin-left: -20px;
+}
+
+.owl-testimonials .owl-next {
+    margin-right: -20px;
 }
